@@ -49,8 +49,8 @@ common.py contains customized functions:
 
 --Framework Used: I have created this project using Pytest framework with Python 3.8. 
 Basically, this framework has 5 folders: 
- - ExternalDependency -- currently no external dependency is needed 
- - PythonLibrary -- contains all the global utils file
+ - ExternalDependency -- webdrivers (chrome, firefox)
+ - PythonLibrary -- contains all the global utils, config file
  - TestData -- contains dictionary for individual test data
  - TestSuite -- contains testcases to run
  - Variable -- Global variables
