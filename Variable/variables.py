@@ -24,9 +24,11 @@ locatorRepo={
     "Password_Actual":"//*[contains(text(),'Password')]//following-sibling::span",
     "First_Name_Actual":"//*[contains(text(),'First Name')]//following-sibling::span",
     "Last_Name_Actual":"//*[contains(text(),'Last Name')]//following-sibling::span",
+    "Invalid_Creds":"//*[@class='invalid-creds']"
 }
 
 expectedValues={
     "expectedSaveMsg":"User Updated Successfully. ",
-    "userAlreadyExists":"This userid already exists. Please enter another userid. "
+    "userAlreadyExists":"This userid already exists. Please enter another userid. ",
+    "invalidCredsMsg":"Invalid UserId. Please try again "
 }
